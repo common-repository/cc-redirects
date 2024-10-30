@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; ?>
+<button<?php if ( ! empty ( $type ) ) : ?> type="<?= $type; ?>"<?php endif; ?><?php if ( ! empty ( $id ) ) : ?> id="<?= $id; ?>"<?php endif; ?><?php if ( ! empty ( $class ) ) : ?> class="<?= $class; ?>"<?php endif; ?>><?= $content; ?></button>

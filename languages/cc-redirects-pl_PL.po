@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cc-redirects\n"
+"POT-Creation-Date: 2022-07-11 17:56+0200\n"
+"PO-Revision-Date: 2022-07-11 18:09+0200\n"
+"Last-Translator: Piotr Niewiadomski <p.niewiadomski@clearcode.cc>\n"
+"Language-Team: Clearcode | Piotr Niewiadomski <p.niewiadomski@clearcode.cc>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/Redirects.php:95
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/Redirects.php:105
+msgid "Author"
+msgstr "Autor"
+
+#: includes/Redirects.php:128
+#, php-format
+msgid "This post is redirected from: %s to: %s with code: %s."
+msgstr "Ten wpis jest przekierowany z: %s do: %s z kodem: %s."
+
+#: includes/Redirects.php:134
+msgid "Edit"
+msgstr "Edytuj"
+
+#: includes/Settings.php:74 includes/Settings.php:90 includes/Settings.php:187
+#: includes/Settings.php:217 includes/Settings.php:242
+#: includes/Settings.php:261 includes/Settings.php:279
+msgid "Redirects"
+msgstr "Przekierowania"
+
+#: includes/Settings.php:83
+msgid "Redirects per page"
+msgstr "Ilość przekierowań na stronę"
+
+#: includes/Settings.php:93
+#, php-format
+msgid "The %s field should be relative to your website root."
+msgstr "Pole %s powinno być adresem względnym do Twojej strony głównej."
+
+#: includes/Settings.php:94 includes/Settings.php:100 includes/Settings.php:102
+#: includes/Settings.php:109 includes/Settings.php:116
+#: includes/Settings.php:118 includes/Settings.php:120 includes/Table.php:52
+msgid "From"
+msgstr "Z"
+
+#: includes/Settings.php:97
+#, php-format
+msgid ""
+"The %s field can be either a full URL to any page on the web, or relative to "
+"your website root."
+msgstr ""
+"Pole %s może być albo pełnym adresem URL do dowolnej strony w sieci, lub "
+"względne do Twojej strony głównej."
+
+#: includes/Settings.php:98 includes/Settings.php:101 includes/Settings.php:103
+#: includes/Settings.php:110 includes/Settings.php:115
+#: includes/Settings.php:119 includes/Settings.php:121 includes/Table.php:53
+msgid "To"
+msgstr "Do"
+
+#: includes/Settings.php:106
+#, php-format
+msgid ""
+"To use wildcards, put an asterisk %s after the folder name you want to "
+"redirect."
+msgstr ""
+"Aby użyć symbolu wieloznacznego, umieść znak gwiazdki %s za folderem, który "
+"chcesz przekierować."
+
+#: includes/Settings.php:113
+#, php-format
+msgid ""
+"You can also use the asterisk %s in the %s field to replace whatever it "
+"matches in the %s field."
+msgstr ""
+"Możesz także użyć znaku gwiazdki %s w polu %s żeby zamienić spasowany "
+"element adresu z pola %s."
+
+#: includes/Settings.php:127 includes/Settings.php:280
+msgid "Import"
+msgstr "Import"
+
+#: includes/Settings.php:130
+#, php-format
+msgid "Format: %s"
+msgstr "Format: %s"
+
+#: includes/Settings.php:134
+#, php-format
+msgid "Field delimiter character: %s"
+msgstr "Znak rozdzielający pole: %s"
+
+#: includes/Settings.php:138
+#, php-format
+msgid "Field enclosure character: %s"
+msgstr "Znak okalający pole: %s"
+
+#: includes/Settings.php:142
+#, php-format
+msgid "Escape character: %s"
+msgstr "Znak ucieczki: %s"
+
+#: includes/Settings.php:165 includes/Settings.php:292
+#: vendor/clearcode/wordpress-framework/src/v3/Singleton.php:31
+msgid "Cheatin&#8217; uh?"
+msgstr "Oszukujemy&#8217; co?"
+
+#: includes/Settings.php:193 includes/Settings.php:222 includes/Table.php:67
+msgid "Save"
+msgstr "Zapisz"
+
+#: includes/Settings.php:194
+msgid "Search"
+msgstr "Szukaj"
+
+#: includes/Settings.php:196
+msgid "Search results for"
+msgstr "Wyniki wyszukiwania dla"
+
+#: includes/Settings.php:203
+msgid "Help"
+msgstr "Pomoc"
+
+#: includes/Settings.php:225
+msgid "Parse CSV formatted string to redirects."
+msgstr "Zaimportuj przekierowania z formatu CSV."
+
+#: includes/Settings.php:248
+msgid "Exported CSV formatted string of redirects."
+msgstr "Przekierowania wyeksportowane do formatu CSV."
+
+#: includes/Settings.php:266 includes/Settings.php:282
+msgid "Reset"
+msgstr "Resetuj"
+
+#: includes/Settings.php:269
+msgid "Remove all redirects."
+msgstr "Usuń wszystkie przekierowania."
+
+#: includes/Settings.php:281
+msgid "Export"
+msgstr "Eksport"
+
+#: includes/Settings.php:329 includes/Settings.php:352
+msgid "Error while saving redirects occurred."
+msgstr "Wystąpił błąd podczas zapisywania przekierowań."
+
+#: includes/Settings.php:351
+msgid "Redirects saved successfully."
+msgstr "Przekierowania zostały zapisane."
+
+#: includes/Settings.php:358 includes/Settings.php:367
+msgid "Error while removing redirect occurred."
+msgstr "Wystąpił błąd podczas usuwania przekierowania."
+
+#: includes/Settings.php:365
+msgid "Redirect removed successfully."
+msgstr "Przekierowanie zostało usunięte."
+
+#: includes/Settings.php:389 includes/Settings.php:414
+msgid "Error while importing redirects occurred."
+msgstr "Wystąpił błąd podczas importu przekierowań."
+
+#: includes/Settings.php:413
+msgid "Redirects imported successfully."
+msgstr "Przekierowania zostały zaimportowane."
+
+#: includes/Settings.php:420
+msgid "Redirects removed successfully."
+msgstr "Przekierowania zostały usunięte."
+
+#: includes/Settings.php:422
+msgid "Error while removing redirects occurred."
+msgstr "Wystąpił błąd podczas usuwania przekierowań."
+
+#: includes/Table.php:51
+msgid "#"
+msgstr "#"
+
+#: includes/Table.php:54
+msgid "Comparison"
+msgstr "Porównanie"
+
+#: includes/Table.php:55
+msgid "Parameters"
+msgstr "Parametry"
+
+#: includes/Table.php:56
+msgid "Code"
+msgstr "Kod"
+
+#: includes/Table.php:71 includes/Table.php:99
+msgid "Remove"
+msgstr "Usuń"
+
+#: includes/Table.php:89
+msgid "Ignore parameters"
+msgstr "Ignoruj parametry"
+
+#: includes/Table.php:90
+msgid "Precise address"
+msgstr "Dokładny adres"
+
+#: includes/Table.php:98
+msgid "Forward"
+msgstr "Przekaż"
+
+#: includes/Table.php:116
+msgid "No redirects available."
+msgstr "Brak przekierowań do wyświetlenia."
+
+#, php-format
+#~ msgid ""
+#~ "Redirects format is similar to the one that Apache uses. The %s field "
+#~ "should be relative to your website root. The %s field can be either a "
+#~ "full URL to any page on the web, or relative to your website root."
+#~ msgstr ""
+#~ "Format przekierowań jest podobny do tego wykorzystywanego przez Apache. "
+#~ "Pole %s powinno być względne do Twojej strony głównej. Pole %s może być "
+#~ "albo pełnym adresem URL do dowolnej strony w sieci, lub względne do "
+#~ "Twojej strony głównej."
+
+#, php-format
+#~ msgid "Format: %s (optional 3rd argument)."
+#~ msgstr "Format: %s (opcjonalny trzeci argument)."
+
+#~ msgid "Action"
+#~ msgstr "Akcja"
+
+#~ msgid ""
+#~ "Redirects work similar to the format that Apache uses. The %s field "
+#~ "should be relative to your website root. \n"
+#~ "\t\t\t\t                    The %s field can be either a full URL to any "
+#~ "page on the web, or relative to your website root."
+#~ msgstr "Przekierowania działają podobnie"
+
+#~ msgid ""
+#~ "Simple redirects work similar to the format that Apache uses: the request "
+#~ "should be relative to your WordPress root. The destination can be either "
+#~ "a full URL to any page on the web, or relative to your WordPress root."
+#~ msgstr ""
+#~ "Proste przekierowania działają podobnie do formatu jaki wykorzystuje "
+#~ "serwer Apache: "

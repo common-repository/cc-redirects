@@ -1,0 +1,19 @@
+.cc-redirects .column-id {
+    width: 40px;
+}
+.cc-redirects td.column-from input,
+.cc-redirects td.column-to input {
+    width: 100%;
+}
+.cc-redirects .column-comparison {
+    width: 150px;
+}
+.cc-redirects .column-parameters {
+    width: 90px;
+}
+.cc-redirects .column-code {
+    width: 70px;
+}
+.cc-redirects .column-action {
+    width: 80px;
+}

@@ -1,0 +1,5 @@
+This file contains the list of people involved in the development of clearcode/wordpress-framework along its history.
+
+Piotr Niewiadomski <http://piotr.press>
+
+Great thanks to Clearcode <https://clearcode.cc> for allowing releasing clearcode/wordpress-framework as free software!

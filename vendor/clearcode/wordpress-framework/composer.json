@@ -1,0 +1,34 @@
+{
+    "name": "clearcode/wordpress-framework",
+    "type": "project",
+    "license": "GPL-3.0+",
+    "description": "WordPress Framework boilerplate by Clearcode.",
+    "homepage": "https://clearcode.cc",
+    "authors": [
+        {
+            "name": "Clearcode",
+            "homepage": "https://github.com/ClearcodeHQ"
+        },
+        {
+            "name": "Piotr Niewiadomski",
+            "homepage": "https://github.com/PiotrPress"
+        }
+    ],
+    "keywords": [
+        "wordpress", "wp", "framework", "boilerplate", "blog", "cms", "composer"
+    ],
+    "support": {
+        "issues": "https://github.com/ClearcodeHQ/wordpress-framework/issues"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clearcode\\Framework\\": "src/"
+        }
+    }
+}
